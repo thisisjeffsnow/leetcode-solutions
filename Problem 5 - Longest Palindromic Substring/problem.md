@@ -14,4 +14,4 @@ For the even case, consider $p$ and an adjacent letter the 'center' of the hypot
 
 Continue choosing new centers as long as we have room to extract substring candidates that are at least as long as the best palindrome substring we've already seen. For example, if we've already seen a palindome substring of length 10, there's no reason to check values of $p$ that are within three characters distance from the end of the string as the biggest possible palindome with $p$ as a center in that case wouldn't even be of length 10. This will speed up the iteration significantly.
 
-Then return the max substring we've seen.
+Then return the max substring palindome we've seen.
