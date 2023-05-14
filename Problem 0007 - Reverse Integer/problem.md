@@ -18,4 +18,4 @@ $123$ for example:
 
 The operation to remove the right most digit is modular division by $10$. To 'attach' a digit, multiply the current value by $10$ and then add the digit.
 
-Before appending, if $reversed$ is below INT_MIN/$10$ or above INT_MAX/$10$, then return 0.
+Before appending, if $reversed$ is below INT_MIN / $10$ or above INT_MAX / $10$ , then return 0.
